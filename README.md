@@ -36,10 +36,9 @@ The cooperation between agents occurs through the exchange of information in the
 
 AMAM framework applications to optimization problems have been showed in Fernandes et al. (2009), Silva et al. (2014) and Silva et al. (2015). This framework is under development and its most recent publication was presented in Silva et al. (2015).
 
+    Silva, M. A. L., 2007. Modelagem de uma arquitetura multiagente para a solução, via metaheurísticas, de problemas de otimização combinatória. Master’s thesis, Federal Center of Technological Education of Minas Gerais (CEFET-MG), Belo Horizonte, Brazil. 
 
     Fernandes, F. C., de Souza, S. R., Silva, M. A. L., Borges, H. E., Ribeiro, F. F., 2009. A multiagent architecture for solving combinatorial optimization problems through metaheuristics. In: Proceedings of the 2009 IEEE International Conference on Systems, Man and Cybernetics (SMC 2009). pp. 3071–3076.
-
-    Silva, M. A. L., 2007. Modelagem de uma arquitetura multiagente para a solução, via metaheurísticas, de problemas de otimização combinatória. Master’s thesis, Federal Center of Technological Education of Minas Gerais (CEFET-MG), Belo Horizonte, Brazil. 
 
     Silva, M. A. L., de Souza, S. R., de Oliveira, S. M., Souza, M. J. F., 2014. An agent-based metaheuristic approach applied to the vehicle routing problem with time-windows. In: Proceedings of the 2014 Brazilian Conference on Intelligent Systems - Enc. Nac. de Inteligência Artificial e Computacional (BRACIS-ENIAC 2014). São Carlos, SP, Brazil.
 
