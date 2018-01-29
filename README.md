@@ -30,7 +30,7 @@ During the search process of the solution, the agents in this framework should g
 
 The actions available to each agent define the vision that it will have of the environment. Therefore, its representation of the environment is partial. The goal is to apply, at the same time, the strengths of each metaheuristic through the cooperative work of the agents.
 
-The Object Oriented Programming paradigm and software design pattern are used to facilitate the development of the framework, allowing to reduce the effort used in the implementation of methods and in the adaptation of these to a specific problem. Therefore, a generic structure that enables the definition of the problem characteristics is used.
+The Object Oriented Programming paradigm and Software Design Pattern are used to facilitate the development of the framework, allowing to reduce the effort used in the implementation of methods and in the adaptation of these to a specific problem. Therefore, a generic structure that enables the definition of the problem characteristics is used.
 
 The cooperation between agents occurs through the exchange of information in the search space of the problem. The available solutions are stored in a pool of solutions in the environment and shared by the agents at the end of each iteration. The purpose of this cooperative structure is to guide agents in the solutions space toward the most promising areas, and thus, improves the final result and reduces the time needed to solve the problem.
 
