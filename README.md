@@ -20,7 +20,7 @@ The scalability of the AMAM architecture is guaranteed by the ease of adding new
 
 The hybridization of metaheuristics is also guaranteed in the AMAM framework, through iteration between the different heuristic / metaheuristic agents. Additionally, AMAM offers the possibility of parallel execution, in which each agent runs on a separate thread.
 
-AMAM framework applications to optimization problems have been showed in Fernandes et al. (2009), Silva et al. (2014) and Silva et al. (2015). This framework is under development and its most recent update was presented in Silva et al. (2015). However, this version is not available for download.
+AMAM framework applications to optimization problems have been showed in Fernandes et al. (2009), Silva et al. (2014) and Silva et al. (2015). This framework is under development and its most recent publication was presented in Silva et al. (2015).
 
 
     Fernandes, F. C., de Souza, S. R., Silva, M. A. L., Borges, H. E., Ribeiro, F. F., 2009. A multiagent architecture for solving combinatorial optimization problems through metaheuristics. In: Proceedings of the 2009 IEEE International Conference on Systems, Man and Cybernetics (SMC 2009). pp. 3071–3076.
