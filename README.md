@@ -20,13 +20,13 @@ AMAM framework, whose initial formulations was proposed in Silva (2007), Fernand
 
 During the search process of the solution, the agents in this framework should go through the multi-agent system environment. In this case, the multi-agent environment is defined by the search space of the addressed problem. The perception and action capabilities of the agent are defined in this environment as:
 
-    - Perception of the environment: ability of the agents to access information about the problem that are required to it;
+   - Perception of the environment: ability of the agents to access information about the problem that are required to it;
 
-    - Positioning: ability of the agents to define their positions in the environment, either by the construction of a new solution or by the choice of solutions already available;
+   - Positioning: ability of the agents to define their positions in the environment, either by the construction of a new solution or by the choice of solutions already available;
 
-    - Movement: ability of the agent to move, from one solution to another in the environment. The movement here comprises all kinds of solution modifications (neighborhood structures, operators) that allow the agent to move from one solution to another;
+   - Movement: ability of the agent to move, from one solution to another in the environment. The movement here comprises all kinds of solution modifications (neighborhood structures, operators) that allow the agent to move from one solution to another;
 
-    - Cooperation: ability of the agent to share and provide solutions for the other agents of the system.
+   - Cooperation: ability of the agent to share and provide solutions for the other agents of the system.
 
 The actions available to each agent define the vision that it will have of the environment. Therefore, its representation of the environment is partial. The goal is to apply, at the same time, the strengths of each metaheuristic through the cooperative work of the agents.
 
