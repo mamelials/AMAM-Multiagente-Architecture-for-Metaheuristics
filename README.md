@@ -14,11 +14,25 @@ Copyright (C) 2013-2017 Silva, M.A.L.
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
  
-AMAM framework, whose conceptual model was proposed in Silva (2007), is a Multi-agent Architecture for Metaheuristic, in which each agent implements a metaheuristic. The environment, where agents exist and act, corresponds to the search space of the optimization problem to be solved. Thus, by changing the problem to be solved, it is only necessary to make a simply change of the architecture environment. The movement ability of the agent through the search space of the problem is defined by the neighbourhood structures (movements) that it has.
 
-The scalability of the AMAM architecture is guaranteed by the ease of adding new agents, with minimal impacton the rest of the architecture. These agents interact with the environment and with others agents cooperatively, exchanging and sharing information about their condition and about the environment. The software developed from the conceptual model is presented in Fernandes et al. (2009), and allows the creation of an instance of the environment and multiple agents to the search of the solution. Design patterns are used to ensure that the AMAM architecture be flexible and extensible.
 
-The hybridization of metaheuristics is also guaranteed in the AMAM framework, through iteration between the different heuristic / metaheuristic agents. Additionally, AMAM offers the possibility of parallel execution, in which each agent runs on a separate thread.
+AMAM framework, whose initial formulations was proposed in Silva (2007), Fernandes et al. (2009) and Silva et al. (2014, 2015), is a Multi-agent Architecture for Metaheuristic. In this framework, each agent encapsulates a heuristic/metaheuristic and has the function of seeking the solution for a given Combinatorial Optimization problem. The strength of the proposed framework is the hybridization capacity of metaheuristics through a multi-agent approach, using concepts of cooperation and parallelism.
+
+During the search process of the solution, the agents in this framework should go through the multi-agent system environment. In this case, the multi-agent environment is defined by the search space of the addressed problem. The perception and action capabilities of the agent are defined in this environment as:
+
+    - Perception of the environment: ability of the agents to access information about the problem that are required to it;
+
+    - Positioning: ability of the agents to define their positions in the environment, either by the construction of a new solution or by the choice of solutions already available;
+
+    - Movement: ability of the agent to move, from one solution to another in the environment. The movement here comprises all kinds of solution modifications (neighborhood structures, operators) that allow the agent to move from one solution to another;
+
+    - Cooperation: ability of the agent to share and provide solutions for the other agents of the system.
+
+The actions available to each agent define the vision that it will have of the environment. Therefore, its representation of the environment is partial. The goal is to apply, at the same time, the strengths of each metaheuristic through the cooperative work of the agents.
+
+The Object Oriented Programming paradigm is used to facilitate the development of the framework, allowing to reduce the effort used in the implementation of methods and in the adaptation of these to a specific problem. Therefore, a generic structure that enables the definition of the problem characteristics is used.
+
+The cooperation between agents occurs through the exchange of information in the search space of the problem. The available solutions are stored in a pool of solutions in the environment and shared by the agents at the end of each iteration. The purpose of this cooperative structure is to guide agents in the solutions space toward the most promising areas, and thus, improves the final result and reduces the time needed to solve the problem.
 
 AMAM framework applications to optimization problems have been showed in Fernandes et al. (2009), Silva et al. (2014) and Silva et al. (2015). This framework is under development and its most recent publication was presented in Silva et al. (2015).
 
