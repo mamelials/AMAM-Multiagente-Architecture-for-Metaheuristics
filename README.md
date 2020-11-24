@@ -1,5 +1,5 @@
 # AMAM: Multiagente Architecture for Metaheuristics
-Copyright (C) 2013-2017 Silva, M.A.L.
+Copyright (C) 2013-2020 Silva, M.A.L.
  
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
