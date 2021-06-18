@@ -1,5 +1,5 @@
 # AMAM: Multiagente Architecture for Metaheuristics
-Copyright (C) 2013-2020 Silva, M.A.L.
+Copyright (C) 2013-2021 Silva, M.A.L.
  
     This program is free software: you can redistribute it and/or modify
     it under the terms of the GNU General Public License as published by
@@ -16,7 +16,7 @@ Copyright (C) 2013-2020 Silva, M.A.L.
  
 
 
-AMAM framework, whose initial formulations was proposed in Silva (2007), Fernandes et al. (2009) and Silva et al. (2014, 2015), is a Multi-agent Architecture for Metaheuristic. In this framework, each agent encapsulates a heuristic/metaheuristic and has the function of seeking the solution for a given Combinatorial Optimization problem. The strength of the proposed framework is the hybridization capacity of metaheuristics through a multi-agent approach, using concepts of cooperation and parallelism.
+AMAM framework, whose initial formulations was proposed in Silva (2007), Fernandes et al. (2009), Silva et al. (2014, 2015, 2019) and Silva (2019), is a Multi-agent Architecture for Metaheuristic. In this framework, each agent encapsulates a heuristic/metaheuristic and has the function of seeking the solution for a given Combinatorial Optimization problem. The strength of the proposed framework is the hybridization capacity of metaheuristics through a multi-agent approach, using concepts of cooperation and parallelism.
 
 During the search process of the solution, the agents in this framework should go through the multi-agent system environment. In this case, the multi-agent environment is defined by the search space of the addressed problem. The perception and action capabilities of the agent are defined in this environment as:
 
@@ -34,7 +34,7 @@ The Object Oriented Programming paradigm and Software Design Pattern are used to
 
 The cooperation between agents occurs through the exchange of information in the search space of the problem. The available solutions are stored in a pool of solutions in the environment and shared by the agents at the end of each iteration. The purpose of this cooperative structure is to guide agents in the solutions space toward the most promising areas, and thus, improves the final result and reduces the time needed to solve the problem.
 
-AMAM framework applications to optimization problems have been showed in Fernandes et al. (2009), Silva et al. (2014) and Silva et al. (2015). This framework is under development and its most recent publication was presented in Silva et al. (2015).
+AMAM framework applications to optimization problems have been showed in Fernandes et al. (2009), Silva et al. (2014) and Silva et al. (2015). This framework is under development and its most recent publication was presented in Silva et al.(2019) and Silva (2019).
 
     Silva, M. A. L., 2007. Modelagem de uma arquitetura multiagente para a solução, via metaheurísticas, de problemas de otimização combinatória. Master’s thesis, Federal Center of Technological Education of Minas Gerais (CEFET-MG), Belo Horizonte, Brazil. 
 
@@ -44,3 +44,6 @@ AMAM framework applications to optimization problems have been showed in Fernand
 
     Silva, M. A. L., de Souza, S. R., Souza, M. J. F., de Oliveira, S. M., Nov 2015. A multi-agent metaheuristic optimization framework with
     cooperation. In: 2015 Brazilian Conference on Intelligent Systems (BRACIS). Natal, Brazil, pp. 104–109.
+    
+    Silva, M. A. L., de Souza, S. R., Souza, M. J. F. & Bazzan, A. L. C. (2019). A reinforcement learning-based multi-agent framework applied for solving routing and scheduling problems. Expert Systems With Applications, 131, 148 – 171. URL:http://www.sciencedirect.com/science/article/pii/S0957417419302866. doi:https://doi.org/10.1016/j.eswa.2019.04.056.
+    Silva, M. A. L., 2019. AMAM: Framework Multiagente para Otimização usando Metaheurísticas. Doctoral’s thesis, Federal Center of Technological Education of Minas Gerais (CEFET-MG), Belo Horizonte, Brazil.
